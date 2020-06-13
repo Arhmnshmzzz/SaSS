@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, header .row nav ul li a, section a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333; }
+
+.row, header .row nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+
+header .row .logo, .col-2 {
+  flex-basis: 16.6666666667%;
+  max-width: 16.6666666667%; }
+
+header .row .contact, .col-3 {
+  flex-basis: 25%;
+  max-width: 25%; }
+
+.col-4 {
+  flex-basis: 33.3333333333%;
+  max-width: 33.3333333333%; }
+
+.col-5 {
+  flex-basis: 41.6666666667%;
+  max-width: 41.6666666667%; }
+
+.col-6 {
+  flex-basis: 50%;
+  max-width: 50%; }
+
+header .row nav, .col-7 {
+  flex-basis: 58.3333333333%;
+  max-width: 58.3333333333%; }
+
+.col-8 {
+  flex-basis: 66.6666666667%;
+  max-width: 66.6666666667%; }
+
+.col-9 {
+  flex-basis: 75%;
+  max-width: 75%; }
+
+.col-10 {
+  flex-basis: 83.3333333333%;
+  max-width: 83.3333333333%; }
+
+header .row .contact, header .row .contact a {
+  padding: 10px 15px; }
+
+header {
+  width: calc(100%-200px);
+  margin: auto;
+  margin-top: 87px; }
+  header .row {
+    justify-content: space-between; }
+    header .row .logo a img {
+      display: block;
+      max-width: 100%; }
+    header .row nav {
+      margin: auto; }
+      header .row nav ul {
+        justify-content: center; }
+        header .row nav ul li {
+          list-style: none; }
+          header .row nav ul li a {
+            display: block;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 16px 32px; }
+    header .row .contact a {
+      background-color: #0044d1;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px; }
+
+section {
+  width: calc(100%-400px);
+  padding: 100px 0px; }
+  section .anime {
+    width: 85%; }
+  section a {
+    color: #0044d1;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    margin-left: 200px; }
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 186px; }
+
+p {
+  font-size: 24px;
+  line-height: 2;
+  margin-left: 200px; }
+
+/*# sourceMappingURL=style.css.map */
